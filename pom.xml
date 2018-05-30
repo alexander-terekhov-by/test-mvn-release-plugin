@@ -24,6 +24,13 @@
         </snapshotRepository>
     </distributionManagement>
 
+
+    <scm>
+        <connection>scm:git:https://github.com/teranik1994/test-mvn-release-plugin.git</connection>
+        <url>https://github.com/teranik1994/test-mvn-release-plugin</url>
+        <developerConnection>scm:git:https://github.com/teranik1994/test-mvn-release-plugin.git</developerConnection>
+    </scm>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
